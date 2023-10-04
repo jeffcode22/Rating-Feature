@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.main{
+    background-color:hsl(213, 19%, 18%) ;
+    height: 60vh;
+    width: 35vw;
+    border-radius: 1.5rem;
+}
+.star-icon-container{
+    background-color: hsl(216, 12%, 54%);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.title{
+    color:  hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: 1rem;;
+}
+
+.text{
+    color: hsl(217, 12%, 63%);
+    margin: 0 2rem;
+    margin-top: 1rem;
+}
+
+.star-icon-container, .title, .text{
+    margin-top: 1.25rem;
+}
+
+.numbers-list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1rem;
+    
+}
+
+.numbers-list div{
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: hsl(216, 12%, 54%);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    cursor: pointer;
+    
+}
+
+.numbers-list div:hover{
+    background-color:  hsl(217, 12%, 63%);
+}
+
+.numbers-list div p{
+    font-weight: 600;
+    font-size: 1.25rem;
+    
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 90%;
+    height: 2.5rem;
+    border-radius: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: hsl(0, 0%, 100%);
+    background-color:  hsl(25, 97%, 53%);
+    border-style: none;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: hsl(0, 0%, 100%);
+    color:  hsl(25, 97%, 53%);
+}
+
+.clicked-btn{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(25, 97%, 53%);
+}
+
+
+/* Second page - DOM */
+
+.img{
+    margin: 2rem 0 1rem 9.5rem;
+}
+
+.div{
+    margin: 1rem 0rem 1.5rem 8.75rem;
+    width: 40%;
+    height: 1.75rem;
+    background-color:hsl(212, 19%, 15%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thank{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.p{
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+    margin: 2rem 1rem 0rem 1rem;
+}
